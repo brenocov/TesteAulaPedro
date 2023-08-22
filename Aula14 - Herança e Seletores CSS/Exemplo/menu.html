@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .menu {
+            background: #ececec;
+            padding: 10px 15px;
+        }
+        .menu ul {
+            margin: 0;
+            padding: 0;
+
+        }
+        
+        .menu ul li {
+            list-style: none;
+            display: inline-block;
+            padding: 10px 15px;
+        }
+
+        .menu ul li a {
+            color: #000;
+            text-decoration: none;
+            font-size: 14px;
+            position: relative;
+        }
+
+        .submenu-pai {
+            position: relative;
+        }
+        
+        .submenu {
+            position: absolute;
+            background: #ccc;
+            display: none;
+            top: 38px;
+            left: 0;
+            width: 200px;  
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;  
+        }
+
+        .menu .submenu-pai:hover   {
+            background: red;
+        }
+
+        .menu .submenu-pai:hover .submenu {
+            display: block;
+            background: green; 
+     
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="">Item 01</a>
+            </li>
+            <li>
+                <a href="">Item 02</a>
+            </li>
+            <li class="submenu-pai">
+                <a href="">
+                    Item 03
+                    <div class="submenu">
+                        <ul>
+                            <li>
+                                <a href="">Submenu 01</a>
+                            </li>
+                            <li>
+                                <a href="">Submenu 01</a>
+                            </li>
+                            <li>
+                                <a href="">Submenu 01</a>
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">Item 04</a>
+            </li>
+            <li class="submenu-pai">
+                <a href="">Item 05
+                    <div class="submenu">
+                        <ul>
+                            <li>
+                                <a href="">Submenu 01</a>
+                            </li>
+                            <li>
+                                <a href="">Submenu 01</a>
+                            </li>
+                            <li>
+                                <a href="">Submenu 01</a>
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <ul>
+        <li>
+            <a href="">Item 01</a>
+        </li>
+        <li>
+            <a href="">Item 02</a>
+        </li>
+        <li>
+            <a href="">Item 03</a>
+        </li>
+        <li>
+            <a href="">Item 04</a>
+        </li>
+        <li>
+            <a href="">Item 05</a>
+        </li>
+    </ul>
+</body>
+</html>

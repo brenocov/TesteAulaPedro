@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .quadrado {
+            width: 200px;
+            height: 200px;
+            background: #FFF;
+            border: 1px solid #ececec;
+            border-radius: 5px;
+            transition: all 1s ease-out;
+            box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+        }
+
+        .quadrado:hover {
+            border-radius: 15px;
+             margin-left: 50px;
+            transition: all 0.5s ease-out;
+            box-shadow: 0px 10px 15px 32px rgba(0,0,0,0.1);
+
+        }
+
+        .texto {
+            margin-top: 30px;
+        }
+
+        .texto:hover {
+            border: 1px solid red;
+        }
+        .texto:focus{
+            border: 1px solid green;
+            outline: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado">
+
+    </div>
+
+    <input class="texto" type="text">
+</body>
+</html>

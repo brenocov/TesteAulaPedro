@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+      p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      .lista p,.extra p{
+        color:blue;
+      }
+
+      .lista .outra p,.extra p {
+        font-size: 10px;
+      }
+
+      .minhaLista li{
+        color: red;
+      }
+      .minhaLista li:first-child{
+        color: blue;
+      }
+      .minhaLista li:last-child{
+        color: blue;
+      }
+      .minhaLista li:nth-child(5),.minhaLista li:nth-child(6){
+        color: blue;
+      }
+      .minhaLista li:nth-child(7){
+        color: blue;
+      }
+      .minhaLista li:nth-child(odd){
+        background: #ccc;
+      }
+      .minhaLista li:nth-child(even){
+        background: #000
+      }
+    </style>
+    
+</head>
+<body>
+  <div class="lista">
+    <div class="outra">
+      <p>Dolore adipisicing est cillum ea aliqua commodo et aliqua nostrud minim esse. Do amet dolore pariatur minim ipsum commodo. Tempor anim consectetur consequat dolore cillum cillum enim consequat mollit. Est elit exercitation ad minim esse non officia cupidatat.</p>
+    </div>
+    <p>Dolore adipisicing est cillum ea aliqua commodo et aliqua nostrud minim esse. Do amet dolore pariatur minim ipsum commodo. Tempor anim consectetur consequat dolore cillum cillum enim consequat mollit. Est elit exercitation ad minim esse non officia cupidatat.</p>
+  </div>
+  <p>Dolore adipisicing est cillum ea aliqua commodo et aliqua nostrud minim esse. Do amet dolore pariatur minim ipsum commodo. Tempor anim consectetur consequat dolore cillum cillum enim consequat mollit. Est elit exercitation ad minim esse non officia cupidatat.</p>
+  <div class="extra">
+    <p>Dolore adipisicing est cillum ea aliqua commodo et aliqua nostrud minim esse. Do amet dolore pariatur minim ipsum commodo. Tempor anim consectetur consequat dolore cillum cillum enim consequat mollit. Est elit exercitation ad minim esse non officia cupidatat.</p>
+  </div>
+
+  <ul class="minhaLista">
+    <li>Alisson</li>
+    <li>Alisson</li>
+    <li>Alisson</li>
+    <li>Alisson</li>
+    <li>Alisson</li>
+    <li>Alisson</li>
+    <li>Alisson</li>
+    <li>Alisson</li>
+  </ul>
+</body>
+</html>

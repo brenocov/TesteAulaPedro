@@ -1,0 +1,29 @@
+
+
+        body {
+            background-color:bisque;
+        }
+
+        #titulo {
+            color:brown
+        }
+
+        #subtitulo {
+            color:darkmagenta
+        }
+
+        #positivo {
+            color: green
+        }
+
+        #negativo {
+            color: red
+        }
+
+        #foto {
+            border-radius: 45%;
+        }
+
+        
+        
+    

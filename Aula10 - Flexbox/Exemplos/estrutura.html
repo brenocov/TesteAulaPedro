@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container {
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+       
+    }
+    .menu {
+        width: 100%;
+        background: #ccc;
+    }
+    .destaque {
+        width: 100%;
+        background: #333;
+        height: 100px;
+    }
+
+    .item {
+        width: 30%;
+    }
+
+    .item1{
+        background: yellow;
+    }
+
+    .item2{
+        background: red;
+    }
+
+    .item3{
+        background: green;
+    }
+    .galeria {
+        width: 33.33%;
+        height: 100px;
+    }
+    .galeria1 {
+        background: #ccc;
+    }
+    .rodape {
+        background: orange;
+        width: 100%;
+    }
+
+    .bg-blue{
+        background: blue;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="menu">
+            <a href="">Item 1</a>
+            <a href="">Item 1</a>
+            <a href="">Item 1</a>
+            <a href="">Item 1</a>
+        </div>
+        <div class="destaque">Aqui sera o destaque</div>
+    </div>
+    <div class="container bg-blue ">
+        <div class="item item1">Gerenciamento de Obras</div>
+        <div class="item item2">Execução de Obras</div>
+        <div class="item item3">Instalações Elétricas</div>
+    </div>
+    <div class="container">
+
+        <div class="galeria galeria1">Galeria 1</div>
+        <div class="galeria ">Galeria 2</div>
+        <div class="galeria galeria1">Galeria 3</div>
+        <div class="galeria ">Galeria 4</div>
+        <div class="galeria galeria1">Galeria 5</div>
+        <div class="galeria ">Galeria 6</div>
+        <div class="rodape">ROdape</div>
+    </div>
+</body>
+</html>

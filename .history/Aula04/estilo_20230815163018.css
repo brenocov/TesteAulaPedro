@@ -1,0 +1,33 @@
+
+
+        body {
+            background-color:bisque;
+        }
+
+        *{
+            font-family: 'Popins';
+        }
+
+        #titulo {
+            color:brown
+        }
+
+        #subtitulo {
+            color:darkmagenta
+        }
+
+        #positivo {
+            color: green
+        }
+
+        #negativo {
+            color: red
+        }
+
+        #foto {
+            border-radius: 45%;
+        }
+
+        
+        
+    
